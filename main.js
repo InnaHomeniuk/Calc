@@ -1,4 +1,4 @@
-git bralet result = prompt('Виберіть арифметичну операцію: +, -, *, /');
+result = prompt('Виберіть арифметичну операцію: +, -, *, /');
 const number1 = +prompt('Уведіть перше число', '');
 const number2 = +prompt('Уведіть друге число', '');
 if (isNaN(number1) || isNaN(number2)) {
